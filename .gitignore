@@ -1,0 +1,12 @@
+# Alle Dateien ignorieren
+*.config
+fp-info-cache
+fp-lib-table
+kbplacer.txt
+*.ini
+*.log
+
+# Alle Dateien in diesen Dir's ignorieren
+3d_model/
+gerber/
+keys-backups/
