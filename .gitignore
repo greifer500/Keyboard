@@ -5,6 +5,7 @@ fp-lib-table
 kbplacer.txt
 *.ini
 *.log
+*.lck
 
 # Alle Dateien in diesen Dir's ignorieren
 3d_model/
