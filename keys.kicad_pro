@@ -493,14 +493,14 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "keys.cad",
       "idf": "",
       "netlist": "",
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "keys.step",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
