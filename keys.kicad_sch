@@ -755,6 +755,336 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(arc
+					(start 0 -7.112)
+					(mid -0.5058 -7.62)
+					(end 0 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -8556,6 +8886,12 @@
 		(uuid "03e14477-39cf-4eed-92f5-c071065da4a0")
 	)
 	(junction
+		(at 88.9 466.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ee957a-5522-4eae-a255-a315e561203c")
+	)
+	(junction
 		(at 82.55 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8610,10 +8946,10 @@
 		(uuid "07e23c21-c946-48d0-941d-1903f5eac1be")
 	)
 	(junction
-		(at 88.265 441.96)
+		(at 92.71 441.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ae09068-51d8-4de0-b1eb-0edb1c6c3b29")
+		(uuid "083ce2f9-c4cc-4424-bd79-e8f5c634eeb6")
 	)
 	(junction
 		(at 57.15 48.26)
@@ -8706,12 +9042,6 @@
 		(uuid "1296b274-2e3b-4676-911a-1218c5b4cd1a")
 	)
 	(junction
-		(at 95.25 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1400ee65-fe37-42fa-9f3f-6d973e8ea93b")
-	)
-	(junction
 		(at 35.56 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8728,6 +9058,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "143713bc-9efd-48e1-b666-591bc939226f")
+	)
+	(junction
+		(at 600.71 491.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1444e931-a76f-42ef-9439-b51e434c1f27")
 	)
 	(junction
 		(at 323.85 142.24)
@@ -8770,6 +9106,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16e08027-b9a3-4eed-872a-009b52a2f4b5")
+	)
+	(junction
+		(at 600.71 486.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1760478f-e107-43b4-a6b9-792e9684d103")
 	)
 	(junction
 		(at 184.15 124.46)
@@ -9222,12 +9564,6 @@
 		(uuid "3f3e0b58-5100-481b-b9a2-3938b82ac14d")
 	)
 	(junction
-		(at 45.72 481.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ff73240-79d0-4b32-b8e1-074de75aed48")
-	)
-	(junction
 		(at 257.81 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9534,6 +9870,18 @@
 		(uuid "57d5d6a3-38ac-4314-b8a2-47ecbe09cb87")
 	)
 	(junction
+		(at 633.73 472.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "587de0e6-c7bc-4311-9621-7845d5605f82")
+	)
+	(junction
+		(at 45.72 480.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f8579b-91e6-4876-a1e3-d37d5118f2b5")
+	)
+	(junction
 		(at 336.55 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9694,6 +10042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66bd8abc-db6c-4ccb-88e0-1aabedd8e262")
+	)
+	(junction
+		(at 622.3 472.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67db0ef7-2f5b-404a-bf29-f5cb1d3819d3")
 	)
 	(junction
 		(at 273.05 224.79)
@@ -9904,6 +10258,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "770d627a-74f8-4734-ad42-d7bcd27c3390")
+	)
+	(junction
+		(at 628.65 477.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77df0c73-3fab-4671-a213-dc1cef10a516")
 	)
 	(junction
 		(at 212.09 224.79)
@@ -10182,6 +10542,12 @@
 		(uuid "8a957cfb-2ae4-4ddb-a458-e5bc2f05c06d")
 	)
 	(junction
+		(at 95.25 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bb8d9e6-8110-4bb8-a36b-ce315d994a1e")
+	)
+	(junction
 		(at 74.93 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10252,6 +10618,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "902dc2f3-2b5f-4209-84e3-4fdf9217a6cd")
+	)
+	(junction
+		(at 640.08 477.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90337f29-379d-4b40-8bef-841febe04ba8")
 	)
 	(junction
 		(at 212.09 223.52)
@@ -10746,6 +11118,12 @@
 		(uuid "b270e6b7-5df8-4559-a285-fd612a99b880")
 	)
 	(junction
+		(at 628.65 472.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b35b79d1-550d-4f53-8227-53acd62ff0eb")
+	)
+	(junction
 		(at 120.65 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10762,6 +11140,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4b37abc-690f-468e-b9e0-e1dd271c0cc2")
+	)
+	(junction
+		(at 622.3 477.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4ea3a4f-bf3c-4e8e-8ab2-26b2652a05c4")
 	)
 	(junction
 		(at 166.37 240.03)
@@ -11190,6 +11574,12 @@
 		(uuid "d6c287d0-67f7-4689-b0c4-40657fe2bf3e")
 	)
 	(junction
+		(at 86.36 441.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6f9ff9f-675b-48f0-bb78-39e8cf4e26e9")
+	)
+	(junction
 		(at 227.33 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11392,6 +11782,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4b2c82b-d0b5-4cfe-a548-921d83bdeeb1")
+	)
+	(junction
+		(at 88.9 461.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e50302cd-1c82-42ba-a133-d0ca93fea79d")
 	)
 	(junction
 		(at 181.61 256.54)
@@ -11723,6 +12119,12 @@
 		(color 0 0 0 0)
 		(uuid "ffa26f9a-ad27-40ab-85da-e5cfaf24ca26")
 	)
+	(junction
+		(at 633.73 477.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff0e7c8-8adb-4c2b-bd30-2c80f8111c17")
+	)
 	(no_connect
 		(at 717.55 308.61)
 		(uuid "171f3234-8f0e-4a15-bb39-2e8c93c03a6d")
@@ -11736,20 +12138,12 @@
 		(uuid "6725b080-e340-4394-880f-8237c2c08b6e")
 	)
 	(no_connect
-		(at 146.05 454.66)
-		(uuid "6bdb7433-7ab9-4015-910c-cd44b0a28a0a")
-	)
-	(no_connect
 		(at 60.96 469.9)
 		(uuid "a2dab530-d936-43c7-8ce4-7744bd1c740b")
 	)
 	(no_connect
 		(at 60.96 472.44)
 		(uuid "a89aa3ba-0cd8-4199-bdbf-03674f046612")
-	)
-	(no_connect
-		(at 120.65 459.74)
-		(uuid "e4e25150-c990-46da-9e3d-807456aed7f6")
 	)
 	(wire
 		(pts
@@ -12080,6 +12474,16 @@
 			(type default)
 		)
 		(uuid "0f264343-6970-4cbb-87fc-697f7ea17b37")
+	)
+	(wire
+		(pts
+			(xy 633.73 477.52) (xy 640.08 477.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4c5538-39ea-4cf3-affc-fe7bad45d278")
 	)
 	(wire
 		(pts
@@ -12693,6 +13097,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 441.96) (xy 85.09 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255eab40-89d0-4127-9ab3-f677ecfeac64")
+	)
+	(wire
+		(pts
 			(xy 247.65 66.04) (xy 247.65 91.44)
 		)
 		(stroke
@@ -12973,13 +13387,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 66.04) (xy 95.25 91.44)
+			(xy 628.65 477.52) (xy 633.73 477.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cb7daaf-acf0-44a8-9d75-7ed7a6e14e0a")
+		(uuid "2d3a862e-5a86-4f14-80d8-7d0190156e39")
 	)
 	(wire
 		(pts
@@ -13120,6 +13534,16 @@
 			(type default)
 		)
 		(uuid "32332baa-5cba-4aca-95bb-e7de94559ecf")
+	)
+	(wire
+		(pts
+			(xy 86.36 444.5) (xy 86.36 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325e756f-ce71-40d5-9cb5-e0980261579c")
 	)
 	(wire
 		(pts
@@ -13853,6 +14277,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 441.96) (xy 92.71 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6eb1b8-8409-43db-a223-e24c73ebfa74")
+	)
+	(wire
+		(pts
 			(xy 146.05 27.94) (xy 146.05 33.02)
 		)
 		(stroke
@@ -14403,6 +14837,16 @@
 	)
 	(wire
 		(pts
+			(xy 622.3 477.52) (xy 628.65 477.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6195a583-defd-480f-b52e-4a8847bb2b7e")
+	)
+	(wire
+		(pts
 			(xy 41.91 335.28) (xy 48.26 335.28)
 		)
 		(stroke
@@ -14420,6 +14864,16 @@
 			(type default)
 		)
 		(uuid "62ae7080-8f3b-44f3-b2a4-0bf3e3a7cc6c")
+	)
+	(wire
+		(pts
+			(xy 95.25 66.04) (xy 95.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bd51cb-0c5d-4e53-89df-142d1c38cd82")
 	)
 	(wire
 		(pts
@@ -14600,6 +15054,16 @@
 			(type default)
 		)
 		(uuid "6ae2988f-9fee-4c60-92a7-4e03b1318582")
+	)
+	(wire
+		(pts
+			(xy 640.08 477.52) (xy 645.16 477.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b410b82-e10f-493b-bf6e-136223b8c20f")
 	)
 	(wire
 		(pts
@@ -15053,16 +15517,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 441.96) (xy 92.71 441.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af2bc95-6294-4bfb-aec4-546f947b9edf")
-	)
-	(wire
-		(pts
 			(xy 90.17 240.03) (xy 105.41 240.03)
 		)
 		(stroke
@@ -15293,16 +15747,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 482.6) (xy 45.72 481.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82730733-aef3-40e6-8449-93f00f222d02")
-	)
-	(wire
-		(pts
 			(xy 35.56 309.88) (xy 41.91 309.88)
 		)
 		(stroke
@@ -15390,6 +15834,16 @@
 			(type default)
 		)
 		(uuid "85b01ca7-7914-4e32-a663-a5c1604b6f91")
+	)
+	(wire
+		(pts
+			(xy 48.26 485.14) (xy 45.72 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8639f6da-6a61-46e3-98e4-eb1ccdf486d4")
 	)
 	(wire
 		(pts
@@ -15743,6 +16197,16 @@
 	)
 	(wire
 		(pts
+			(xy 633.73 472.44) (xy 640.08 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92850def-13c9-4112-9dbd-c5a53cce2338")
+	)
+	(wire
+		(pts
 			(xy 257.81 223.52) (xy 273.05 223.52)
 		)
 		(stroke
@@ -15950,16 +16414,6 @@
 			(type default)
 		)
 		(uuid "9916ea6a-a3a3-4109-bba7-eaa21a6e3215")
-	)
-	(wire
-		(pts
-			(xy 85.09 441.96) (xy 88.265 441.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a574b2-e508-427a-b429-1e5aebfe46bb")
 	)
 	(wire
 		(pts
@@ -16593,6 +17047,16 @@
 	)
 	(wire
 		(pts
+			(xy 622.3 472.44) (xy 628.65 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfb9297-4f5a-44d0-a75d-d8ec59662741")
+	)
+	(wire
+		(pts
 			(xy 242.57 240.03) (xy 257.81 240.03)
 		)
 		(stroke
@@ -17103,6 +17567,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 466.09) (xy 88.9 468.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba45b993-35a1-451f-ab6c-9d8ec3e6d593")
+	)
+	(wire
+		(pts
 			(xy 764.54 369.57) (xy 764.54 370.84)
 		)
 		(stroke
@@ -17303,7 +17777,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 480.06) (xy 45.72 481.33)
+			(xy 45.72 480.06) (xy 45.72 485.14)
 		)
 		(stroke
 			(width 0)
@@ -17360,6 +17834,16 @@
 			(type default)
 		)
 		(uuid "c2dd8770-6367-4c09-91c4-ecb1f37fdf8e")
+	)
+	(wire
+		(pts
+			(xy 628.65 472.44) (xy 633.73 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31cbb0e-31ab-4ff0-bd9a-c287a9985e4a")
 	)
 	(wire
 		(pts
@@ -18213,16 +18697,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 480.06) (xy 38.1 481.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfacefc0-1972-469c-9ee6-7c6ce4ad7dd0")
-	)
-	(wire
-		(pts
 			(xy 74.93 257.81) (xy 90.17 257.81)
 		)
 		(stroke
@@ -18230,16 +18704,6 @@
 			(type default)
 		)
 		(uuid "dfc35c55-46a4-429c-8cc6-d6ae74a58c97")
-	)
-	(wire
-		(pts
-			(xy 44.45 481.33) (xy 45.72 481.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dffb4c3c-df0b-45cc-9522-6f9eb0c49310")
 	)
 	(wire
 		(pts
@@ -18403,6 +18867,16 @@
 	)
 	(wire
 		(pts
+			(xy 619.76 472.44) (xy 622.3 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d0f1b7-0ae1-46c7-8c63-f1894cd247da")
+	)
+	(wire
+		(pts
 			(xy 323.85 40.64) (xy 323.85 66.04)
 		)
 		(stroke
@@ -18420,6 +18894,16 @@
 			(type default)
 		)
 		(uuid "e4833cd9-91b9-4e16-ad08-a14160c6a5a3")
+	)
+	(wire
+		(pts
+			(xy 600.71 486.41) (xy 600.71 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bf8802-b1cb-4a90-bd8f-2060749575e4")
 	)
 	(wire
 		(pts
@@ -18540,16 +19024,6 @@
 			(type default)
 		)
 		(uuid "e797e5cf-d3e1-47e0-a472-4c6bdcfb26e6")
-	)
-	(wire
-		(pts
-			(xy 38.1 481.33) (xy 39.37 481.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7ad8a3f-1874-450f-abca-dde57ee137ce")
 	)
 	(wire
 		(pts
@@ -18873,6 +19347,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 461.01) (xy 88.9 463.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01bb0cc-f17b-40a6-b846-2ba8382ab1d9")
+	)
+	(wire
+		(pts
 			(xy 60.96 330.2) (xy 67.31 330.2)
 		)
 		(stroke
@@ -18933,6 +19417,16 @@
 	)
 	(wire
 		(pts
+			(xy 619.76 477.52) (xy 622.3 477.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2031d66-7f6e-42df-a4ae-9aacd653d3ef")
+	)
+	(wire
+		(pts
 			(xy 35.56 340.36) (xy 41.91 340.36)
 		)
 		(stroke
@@ -18970,6 +19464,16 @@
 			(type solid)
 		)
 		(uuid "f3a25652-16bd-42bd-8bd7-24f43e4bb715")
+	)
+	(wire
+		(pts
+			(xy 600.71 491.49) (xy 600.71 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cc0417-054a-4952-b3f8-3c3457284c9a")
 	)
 	(wire
 		(pts
@@ -19247,7 +19751,7 @@
 	)
 	(rectangle
 		(start 25.4 355.6)
-		(end 49.53 421.64)
+		(end 64.77 421.64)
 		(stroke
 			(width 0)
 			(type default)
@@ -19756,6 +20260,28 @@
 			)
 		)
 	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 88.9 471.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0db8dc1f-99f9-4671-9b54-818123e1c7f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.1835 471.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 807.72 260.35 90)
@@ -20085,6 +20611,28 @@
 			)
 		)
 	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 146.05 459.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34736d56-9516-44b1-94bc-fa3719744ed6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.7665 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENCODER_A"
 		(shape bidirectional)
 		(at 645.16 523.24 180)
@@ -20329,7 +20877,7 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 120.65 454.66 180)
+		(at 120.65 459.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20339,7 +20887,29 @@
 		)
 		(uuid "46435967-58e1-4af5-852a-0e0912c42dd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.9335 454.66 0)
+			(at 108.9335 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 88.9 473.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "471872d7-29f1-4637-a0df-52638d8e1e21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.1835 473.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20833,6 +21403,28 @@
 			)
 		)
 	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 600.71 499.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "817b5a70-846f-4876-ad35-e76375c411d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 588.9935 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDCLK"
 		(shape input)
 		(at 645.16 464.82 180)
@@ -20901,7 +21493,7 @@
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 146.05 459.74 0)
+		(at 146.05 454.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20911,7 +21503,7 @@
 		)
 		(uuid "8cd5e0da-3534-438b-8ed2-a9a42ed4a639")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.7665 459.74 0)
+			(at 157.7665 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21308,6 +21900,28 @@
 		(uuid "adc4559f-814c-4710-a40d-d49bc864278c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 809.0694 271.3507 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 120.65 454.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1b99be9-695b-40f9-83b9-4ff9f9cc0750")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.9335 454.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21955,6 +22569,28 @@
 			)
 		)
 	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 600.71 496.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea43054a-0c2f-47c2-b6c3-37314880989e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 588.9935 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL1"
 		(shape output)
 		(at 690.88 510.54 0)
@@ -22250,7 +22886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 27.94 367.03 0)
 			(effects
 				(font
@@ -22314,7 +22950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 111.76 307.34 0)
 			(effects
 				(font
@@ -22534,7 +23170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 307.34 0)
 			(effects
 				(font
@@ -22971,7 +23607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 347.98 0)
 			(effects
 				(font
@@ -23402,7 +24038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.66 347.98 0)
 			(effects
 				(font
@@ -23555,7 +24191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 337.82 0)
 			(effects
 				(font
@@ -23979,7 +24615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 688.34 313.69 0)
 			(effects
 				(font
@@ -24326,7 +24962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 317.5 0)
 			(effects
 				(font
@@ -24445,6 +25081,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 447.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1112218c-e274-43d1-87c7-be5b1e2c47a6")
+		(property "Reference" "C104"
+			(at 86.36 446.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 86.106 448.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 86.36 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 86.36 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 86.36 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "721b602e-9110-449b-969f-316bc1122303")
+		)
+		(pin "2"
+			(uuid "21e9577b-a9bf-471c-8a28-f104e16843f8")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 336.55 146.05 90)
 		(unit 1)
@@ -24541,7 +25264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.96 297.18 0)
 			(effects
 				(font
@@ -24620,7 +25343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 27.94 149.86 0)
 			(effects
 				(font
@@ -24687,7 +25410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 347.98 0)
 			(effects
 				(font
@@ -24840,7 +25563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 327.66 0)
 			(effects
 				(font
@@ -24919,7 +25642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 337.82 0)
 			(effects
 				(font
@@ -25067,7 +25790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.96 337.82 0)
 			(effects
 				(font
@@ -25146,7 +25869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.66 337.82 0)
 			(effects
 				(font
@@ -25225,7 +25948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 297.18 0)
 			(effects
 				(font
@@ -25440,7 +26163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 307.34 0)
 			(effects
 				(font
@@ -25588,7 +26311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 27.94 360.68 0)
 			(effects
 				(font
@@ -25721,7 +26444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.46 307.34 0)
 			(effects
 				(font
@@ -26288,7 +27011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 297.18 0)
 			(effects
 				(font
@@ -27004,7 +27727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 347.98 0)
 			(effects
 				(font
@@ -27081,7 +27804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 171.45 27.94 0)
 			(effects
 				(font
@@ -27546,6 +28269,93 @@
 			(project "keys"
 				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
 					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 628.65 474.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24dc9f76-9d5a-48a3-a68d-06c49476f619")
+		(property "Reference" "C2"
+			(at 627.38 473.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 625.348 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 628.65 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 628.65 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 628.65 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 628.65 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 628.65 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23195c44-ffd0-4fc2-a189-8345e42f1739")
+		)
+		(pin "2"
+			(uuid "d4bb1ca9-12e6-4337-a4f4-4b834fbdc734")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -28204,7 +29014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.21 347.98 0)
 			(effects
 				(font
@@ -28679,7 +29489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 27.94 99.06 0)
 			(effects
 				(font
@@ -28713,6 +29523,70 @@
 			(project "keys"
 				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
 					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b7de5fe-cfc4-4b36-b37d-fc0031c17df1")
+		(property "Reference" "H3"
+			(at 50.8 359.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 50.8 361.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 48.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -29083,7 +29957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 764.54 359.41 0)
 			(effects
 				(font
@@ -29150,7 +30024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 701.04 237.49 0)
 			(effects
 				(font
@@ -29368,7 +30242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 297.18 0)
 			(effects
 				(font
@@ -29597,7 +30471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 317.5 0)
 			(effects
 				(font
@@ -29745,7 +30619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 297.18 0)
 			(effects
 				(font
@@ -29896,7 +30770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 120.65 27.94 0)
 			(effects
 				(font
@@ -30066,6 +30940,160 @@
 			(project "keys"
 				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
 					(reference "SW71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 88.9 461.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3683eb9b-875a-46d6-a3e2-48537c4a5873")
+		(property "Reference" "#PWR053"
+			(at 88.9 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 461.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8bc4646-bd52-4fe0-9d8a-f3d93bfb496e")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 50.8 485.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "373e937b-cfd4-4862-95c7-704f2ca58b8c")
+		(property "Reference" "C103"
+			(at 53.34 483.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 54.102 486.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 50.8 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 50.8 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 50.8 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c4584f2-d56f-4af4-b8ef-4eaaa50cb048")
+		)
+		(pin "2"
+			(uuid "ec9c4484-2bf1-44c2-9ab5-df935928fe00")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -30526,7 +31554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.04 447.04 0)
 			(effects
 				(font
@@ -30807,7 +31835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 35.56 347.98 0)
 			(effects
 				(font
@@ -31034,7 +32062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 764.54 367.03 0)
 			(effects
 				(font
@@ -31211,6 +32239,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 41.91 480.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dfbd069-36df-4395-aaf0-3f2b849978ec")
+		(property "Reference" "L2"
+			(at 41.783 478.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM15PX121SN1D"
+			(at 41.91 480.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 41.91 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "blm15px121sn1d"
+			(at 41.91 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1de5ce92-df2a-43ea-9919-2df2f986c9e9")
+		)
+		(pin "1"
+			(uuid "a7378df2-a569-44ba-b07f-911e5ae4aa31")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 80.01 347.98 0)
 		(unit 1)
@@ -31238,7 +32333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 347.98 0)
 			(effects
 				(font
@@ -31384,7 +32479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 298.45 27.94 0)
 			(effects
 				(font
@@ -31520,7 +32615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.21 307.34 0)
 			(effects
 				(font
@@ -31647,7 +32742,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.265 441.96 180)
+		(at 92.71 441.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31656,7 +32751,7 @@
 		(fields_autoplaced yes)
 		(uuid "4053ca68-b2e1-4e85-b1b7-c93b5aad731e")
 		(property "Reference" "TP1"
-			(at 90.805 443.9919 0)
+			(at 95.25 443.9919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31665,7 +32760,7 @@
 			)
 		)
 		(property "Value" "5V_F"
-			(at 90.805 446.5319 0)
+			(at 95.25 446.5319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31673,8 +32768,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
-			(at 83.185 441.96 0)
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
+			(at 87.63 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31683,7 +32778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.185 441.96 0)
+			(at 87.63 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31692,7 +32787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.265 441.96 0)
+			(at 92.71 441.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31806,7 +32901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 273.05 27.94 0)
 			(effects
 				(font
@@ -32010,7 +33105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 347.98 0)
 			(effects
 				(font
@@ -32300,7 +33395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 327.66 0)
 			(effects
 				(font
@@ -32447,7 +33542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 726.44 309.88 0)
 			(effects
 				(font
@@ -32524,7 +33619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 146.05 27.94 0)
 			(effects
 				(font
@@ -32591,7 +33686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 307.34 0)
 			(effects
 				(font
@@ -32712,6 +33807,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 93.98 466.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "466697ce-165b-4dc3-84ad-2826172a4de5")
+		(property "Reference" "J5"
+			(at 95.25 466.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 95.25 468.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal"
+			(at 93.98 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 93.98 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3301f373-9fe5-4c85-b113-d461769202b7")
+		)
+		(pin "3"
+			(uuid "de160cd5-286d-4a4a-84ca-e283a393bce7")
+		)
+		(pin "5"
+			(uuid "529288b2-c556-41b9-81db-eda948d03bcc")
+		)
+		(pin "2"
+			(uuid "59791a44-cc04-4839-a1b9-9868d5346477")
+		)
+		(pin "1"
+			(uuid "e925a282-9607-49bc-b699-1ab4a07bf8b0")
+		)
+		(pin "4"
+			(uuid "c870da59-a6d2-4dbd-9e1e-0071ba5f0035")
+		)
+		(instances
+			(project ""
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 124.46 317.5 0)
 		(unit 1)
@@ -32739,7 +33916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.46 317.5 0)
 			(effects
 				(font
@@ -32818,7 +33995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 337.82 0)
 			(effects
 				(font
@@ -32965,7 +34142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 317.5 0)
 			(effects
 				(font
@@ -33112,7 +34289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 762 464.82 0)
 			(effects
 				(font
@@ -33700,7 +34877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 748.03 293.37 0)
 			(effects
 				(font
@@ -33788,7 +34965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 297.18 0)
 			(effects
 				(font
@@ -33946,7 +35123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 130.81 307.34 0)
 			(effects
 				(font
@@ -34025,7 +35202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 674.37 287.02 0)
 			(effects
 				(font
@@ -34177,7 +35354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 425.45 27.94 0)
 			(effects
 				(font
@@ -34242,7 +35419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 735.33 175.26 0)
 			(effects
 				(font
@@ -34312,7 +35489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 748.03 464.82 0)
 			(effects
 				(font
@@ -34684,7 +35861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.66 297.18 0)
 			(effects
 				(font
@@ -34736,6 +35913,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 101.6 483.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5862a10c-454d-4816-bcfa-087d85d5634f")
+		(property "Reference" "H12"
+			(at 104.14 481.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 104.14 483.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 101.6 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 101.6 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1738f353-6dfc-4a20-8ed0-de900ebc2ea4")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 92.71 317.5 0)
 		(unit 1)
@@ -34763,7 +36007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 317.5 0)
 			(effects
 				(font
@@ -34842,7 +36086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 327.66 0)
 			(effects
 				(font
@@ -34921,7 +36165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 297.18 0)
 			(effects
 				(font
@@ -34998,7 +36242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 247.65 27.94 0)
 			(effects
 				(font
@@ -35202,6 +36446,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 605.79 491.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b7d4904-f41c-4e04-93ce-958f1aa5e4e0")
+		(property "Reference" "J6"
+			(at 607.06 491.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 607.06 494.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0060_1x06-1MP_P1.00mm_Horizontal"
+			(at 605.79 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 605.79 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 605.79 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0764f8b5-09dc-47a7-9af4-8e82ea9c926e")
+		)
+		(pin "3"
+			(uuid "a0a5b785-b73b-4b86-88a0-ca56e22f92c4")
+		)
+		(pin "5"
+			(uuid "3efe6f32-5b83-4b81-a6d4-d127db7af6db")
+		)
+		(pin "2"
+			(uuid "abc4040b-0440-46e4-aa4d-4b9e6fdf0a30")
+		)
+		(pin "1"
+			(uuid "d9d2ab46-313d-48cf-a5d7-658ec2d8e75a")
+		)
+		(pin "4"
+			(uuid "0c396ab3-ee0a-4381-a81b-1d2a293dbf27")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 317.5 0)
 		(unit 1)
@@ -35229,7 +36555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 317.5 0)
 			(effects
 				(font
@@ -35584,7 +36910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.66 327.66 0)
 			(effects
 				(font
@@ -35796,7 +37122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 118.11 307.34 0)
 			(effects
 				(font
@@ -36011,7 +37337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 35.56 307.34 0)
 			(effects
 				(font
@@ -36088,7 +37414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 476.25 27.94 0)
 			(effects
 				(font
@@ -36642,7 +37968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 27.94 379.73 0)
 			(effects
 				(font
@@ -36981,7 +38307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 683.26 312.42 0)
 			(effects
 				(font
@@ -37127,7 +38453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 337.82 224.79 0)
 			(effects
 				(font
@@ -37192,7 +38518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 337.82 219.71 0)
 			(effects
 				(font
@@ -37747,7 +39073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 27.94 73.66 0)
 			(effects
 				(font
@@ -37850,6 +39176,93 @@
 			(project "keys"
 				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 622.3 474.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6afdaae1-4605-4f2c-8d4b-6a6f786d5891")
+		(property "Reference" "C1"
+			(at 621.03 473.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 619.506 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 622.3 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 622.3 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 622.3 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 622.3 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 622.3 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46c4f19d-177f-4b13-bce9-1d5c037786a2")
+		)
+		(pin "2"
+			(uuid "efe13499-c50f-48bf-96a5-04eb5c08e365")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -38089,7 +39502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 337.82 207.01 0)
 			(effects
 				(font
@@ -38155,7 +39568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 737.87 300.99 0)
 			(effects
 				(font
@@ -38383,7 +39796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 753.11 161.29 0)
 			(effects
 				(font
@@ -38801,7 +40214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.66 317.5 0)
 			(effects
 				(font
@@ -39293,7 +40706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 44.45 27.94 0)
 			(effects
 				(font
@@ -39358,7 +40771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 349.25 27.94 0)
 			(effects
 				(font
@@ -39781,7 +41194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 347.98 0)
 			(effects
 				(font
@@ -39860,7 +41273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 297.18 0)
 			(effects
 				(font
@@ -40075,7 +41488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 802.64 347.98 0)
 			(effects
 				(font
@@ -40219,7 +41632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 111.76 337.82 0)
 			(effects
 				(font
@@ -40508,7 +41921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 678.18 307.34 0)
 			(effects
 				(font
@@ -40587,7 +42000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 317.5 0)
 			(effects
 				(font
@@ -40803,7 +42216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 35.56 297.18 0)
 			(effects
 				(font
@@ -40882,7 +42295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 27.94 400.05 0)
 			(effects
 				(font
@@ -40949,7 +42362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 307.34 0)
 			(effects
 				(font
@@ -41026,7 +42439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 337.82 213.36 0)
 			(effects
 				(font
@@ -41093,7 +42506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 337.82 0)
 			(effects
 				(font
@@ -41315,7 +42728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.06 307.34 0)
 			(effects
 				(font
@@ -41393,7 +42806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 773.43 297.18 0)
 			(effects
 				(font
@@ -42316,7 +43729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 327.66 0)
 			(effects
 				(font
@@ -43005,7 +44418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.04 449.58 0)
 			(effects
 				(font
@@ -43141,7 +44554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 615.95 331.47 0)
 			(effects
 				(font
@@ -43211,7 +44624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.21 297.18 0)
 			(effects
 				(font
@@ -43358,7 +44771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 27.9399 124.46 0)
 			(effects
 				(font
@@ -43566,7 +44979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 337.82 0)
 			(effects
 				(font
@@ -43972,7 +45385,7 @@
 	(symbol
 		(lib_name "+5V_3")
 		(lib_id "power:+5V")
-		(at 645.16 477.52 90)
+		(at 619.76 477.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43981,7 +45394,7 @@
 		(fields_autoplaced yes)
 		(uuid "97409cb4-d3f1-48f6-84fb-a17ae4e5a23e")
 		(property "Reference" "#PWR050"
-			(at 648.97 477.52 0)
+			(at 623.57 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43990,7 +45403,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 641.35 477.5199 90)
+			(at 615.95 477.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43999,7 +45412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 645.16 477.52 0)
+			(at 619.76 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44008,7 +45421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 645.16 477.52 0)
+			(at 619.76 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44017,7 +45430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 645.16 477.52 0)
+			(at 619.76 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44541,7 +45954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 737.87 293.37 0)
 			(effects
 				(font
@@ -44697,7 +46110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 337.82 0)
 			(effects
 				(font
@@ -44916,7 +46329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 400.05 27.94 0)
 			(effects
 				(font
@@ -44956,6 +46369,74 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_4")
+		(lib_id "power:+5V")
+		(at 600.71 491.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d3652cd-1201-4c0b-8b9e-2ebf51e36c3b")
+		(property "Reference" "#PWR034"
+			(at 604.52 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 596.9 491.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 600.71 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 600.71 491.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b19ec448-8fdf-414c-89e0-81ca7c99fa9a")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 35.56 317.5 0)
 		(unit 1)
@@ -44983,7 +46464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 35.56 317.5 0)
 			(effects
 				(font
@@ -45130,7 +46611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 35.56 327.66 0)
 			(effects
 				(font
@@ -45209,7 +46690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 27.94 386.08 0)
 			(effects
 				(font
@@ -45271,7 +46752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 95.25 27.94 0)
 			(effects
 				(font
@@ -45338,7 +46819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 130.81 317.5 0)
 			(effects
 				(font
@@ -45461,7 +46942,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 45.72 482.6 0)
+		(at 53.34 485.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45469,7 +46950,7 @@
 		(dnp no)
 		(uuid "a08ca124-c2d9-40a2-a11c-896438202f36")
 		(property "Reference" "#PWR04"
-			(at 45.72 488.95 0)
+			(at 59.69 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45478,7 +46959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 486.156 0)
+			(at 56.896 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45486,7 +46967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 482.6 0)
+			(at 53.34 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45495,7 +46976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 482.6 0)
+			(at 53.34 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45504,7 +46985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 482.6 0)
+			(at 53.34 485.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45894,7 +47375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
 			(at 27.94 412.75 0)
 			(effects
 				(font
@@ -46254,7 +47735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 327.66 0)
 			(effects
 				(font
@@ -46306,6 +47787,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 101.6 486.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a418b37c-7c87-442e-911f-b0ce5bb22b78")
+		(property "Reference" "#PWR056"
+			(at 107.95 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 486.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2e51425-9b45-4590-88b6-3413ea7eb2c8")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 698.5 241.3 0)
 		(unit 1)
@@ -46332,7 +47881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 698.5 241.3 0)
 			(effects
 				(font
@@ -46549,7 +48098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 327.66 0)
 			(effects
 				(font
@@ -46628,7 +48177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 665.48 287.02 0)
 			(effects
 				(font
@@ -46922,7 +48471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 740.41 177.8 0)
 			(effects
 				(font
@@ -47192,7 +48741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 69.85 27.94 0)
 			(effects
 				(font
@@ -47798,7 +49347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 728.98 464.82 0)
 			(effects
 				(font
@@ -48103,7 +49652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.21 317.5 0)
 			(effects
 				(font
@@ -48460,7 +50009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 317.5 0)
 			(effects
 				(font
@@ -48751,7 +50300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 337.82 0)
 			(effects
 				(font
@@ -48797,6 +50346,70 @@
 			(project "keys"
 				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
 					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 367.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c7557e-995d-4cb5-b0d3-baf5c54e4b57")
+		(property "Reference" "H5"
+			(at 50.8 365.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 50.8 368.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 48.26 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -48872,6 +50485,74 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_4")
+		(lib_id "power:+5V")
+		(at 88.9 466.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6d62b24-753c-4118-ac3a-bd5bc4114c55")
+		(property "Reference" "#PWR037"
+			(at 92.71 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 85.09 466.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 88.9 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c7e239b-5100-414f-9c7c-9e835bd6fe6d")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 41.91 307.34 0)
 		(unit 1)
@@ -48899,7 +50580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 307.34 0)
 			(effects
 				(font
@@ -48978,7 +50659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 27.94 392.43 0)
 			(effects
 				(font
@@ -49247,7 +50928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 196.85 27.94 0)
 			(effects
 				(font
@@ -49450,7 +51131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.66 307.34 0)
 			(effects
 				(font
@@ -49529,7 +51210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 307.34 0)
 			(effects
 				(font
@@ -49608,7 +51289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.96 327.66 0)
 			(effects
 				(font
@@ -50438,6 +52119,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 640.08 474.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c028339e-c39f-4870-977e-0b4e9b3c6499")
+		(property "Reference" "C102"
+			(at 637.54 473.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 637.54 476.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 640.08 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 640.08 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 640.08 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 640.08 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 640.08 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4cb5240-1078-4767-8232-e31f552c6884")
+		)
+		(pin "2"
+			(uuid "0952f1fb-450f-41a7-93e0-0acec49aba3a")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 82.55 146.05 90)
 		(unit 1)
@@ -50534,7 +52302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 317.5 0)
 			(effects
 				(font
@@ -50682,7 +52450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 327.66 0)
 			(effects
 				(font
@@ -50802,6 +52570,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 633.73 474.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2955785-dadc-44ae-b64a-18093bdce865")
+		(property "Reference" "C101"
+			(at 631.19 473.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.001uF"
+			(at 629.92 471.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 633.73 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 633.73 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 633.73 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 633.73 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 633.73 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "445baaf6-d41a-4599-9f39-33d73ffc5e27")
+		)
+		(pin "2"
+			(uuid "b8637a83-b86c-49d3-9aa7-116ee9612fd6")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 260.35 120.65 90)
 		(unit 1)
@@ -50898,7 +52753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 35.56 337.82 0)
 			(effects
 				(font
@@ -51086,76 +52941,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 41.91 481.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c63b4dd3-78fb-4252-88e3-e024bdb1b0e5")
-		(property "Reference" "R3"
-			(at 40.64 478.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "1M"
-			(at 37.592 481.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 41.91 481.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 481.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 41.91 481.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c330d0e4-bca2-4bcd-891b-8eadbadc84d1")
-		)
-		(pin "2"
-			(uuid "4449fc16-a756-4127-af03-c3f8fb03090f")
-		)
-		(instances
-			(project "keys"
-				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 777.24 303.53 0)
 		(unit 1)
@@ -51317,7 +53102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 317.5 0)
 			(effects
 				(font
@@ -51464,7 +53249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 327.66 0)
 			(effects
 				(font
@@ -51760,7 +53545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 118.11 317.5 0)
 			(effects
 				(font
@@ -52046,7 +53831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.96 317.5 0)
 			(effects
 				(font
@@ -52262,7 +54047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 111.76 317.5 0)
 			(effects
 				(font
@@ -52410,7 +54195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 297.18 0)
 			(effects
 				(font
@@ -53338,7 +55123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 701.04 232.41 0)
 			(effects
 				(font
@@ -53406,7 +55191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 222.25 27.94 0)
 			(effects
 				(font
@@ -53606,7 +55391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 748.03 300.99 0)
 			(effects
 				(font
@@ -53831,7 +55616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 27.94 175.26 0)
 			(effects
 				(font
@@ -53898,7 +55683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.21 337.82 0)
 			(effects
 				(font
@@ -54043,7 +55828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 27.94 373.38 0)
 			(effects
 				(font
@@ -54385,7 +56170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 307.34 0)
 			(effects
 				(font
@@ -54669,7 +56454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 327.66 0)
 			(effects
 				(font
@@ -54884,7 +56669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 450.85 27.94 0)
 			(effects
 				(font
@@ -54992,6 +56777,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 619.76 472.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea43554e-6e8a-49ea-8465-115b75594050")
+		(property "Reference" "#PWR054"
+			(at 613.41 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 615.95 472.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 619.76 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 619.76 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 619.76 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d095906-3f04-41ff-b201-9dbdb30f829b")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 60.96 307.34 0)
 		(unit 1)
@@ -55019,7 +56872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.96 307.34 0)
 			(effects
 				(font
@@ -55232,7 +57085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 27.94 48.26 0)
 			(effects
 				(font
@@ -55656,7 +57509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 307.34 0)
 			(effects
 				(font
@@ -55799,7 +57652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 693.42 241.3 0)
 			(effects
 				(font
@@ -55876,7 +57729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 337.82 200.66 0)
 			(effects
 				(font
@@ -55910,6 +57763,137 @@
 			(project "keys"
 				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
 					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 101.6 476.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2cdb31f-d4a9-4845-9e7d-03810a4c8a2f")
+		(property "Reference" "H11"
+			(at 104.14 474.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 104.14 477.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 101.6 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 476.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 600.71 486.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3056cde-170d-4a0f-85cb-e91ffcdff360")
+		(property "Reference" "#PWR033"
+			(at 600.71 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 600.71 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 600.71 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 600.71 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "886be992-ad56-401b-a710-092d092e1c5e")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -56159,7 +58143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 337.82 0)
 			(effects
 				(font
@@ -56280,6 +58264,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 86.36 449.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f572a9cf-60b0-47c1-84ed-9d31e1f9ed48")
+		(property "Reference" "#PWR055"
+			(at 86.36 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 453.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312168ee-26ee-45d9-8fd9-c6194ddf55db")
+		)
+		(instances
+			(project "keys"
+				(path "/5e7ab611-ac4e-4e44-a74e-aa87542ac88a"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 337.82 199.39 90)
 		(unit 1)
@@ -56305,7 +58355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 337.82 194.31 0)
 			(effects
 				(font
@@ -56725,7 +58775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 337.82 0)
 			(effects
 				(font
@@ -56804,7 +58854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 60.96 347.98 0)
 			(effects
 				(font
@@ -56950,7 +59000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.21 327.66 0)
 			(effects
 				(font
@@ -57027,7 +59077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Keyboard_Specific:TestPoint_Pad_D1.5mm"
 			(at 323.85 27.94 0)
 			(effects
 				(font
@@ -57168,7 +59218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.26 297.18 0)
 			(effects
 				(font
@@ -57315,7 +59365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 347.98 0)
 			(effects
 				(font
@@ -57394,7 +59444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard_Specific:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 683.26 287.02 0)
 			(effects
 				(font
